@@ -1,0 +1,24 @@
+.para1::first-line{
+    color: red;
+}
+
+/* Maker */
+::marker{
+    color: blue;
+    font-size: 20px;
+}
+
+/* Selection */
+::selection{
+    background: yellow;
+    color: red;
+}
+
+.name::after{
+    content:"Hasnain Ali"
+}
+.session::before{
+    content:"2025";
+    color: green;
+
+}
